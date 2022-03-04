@@ -1,0 +1,63 @@
+body {
+  background-color: AliceBlue #f0f8ff;
+  font-size-adjust: inherit;
+  font-family: "Roboto", sans-serif;
+}
+/* I used Google Fonts for font-family and copied and pasted the link to HTML and the name of the font to CSS.*/
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+/* I copied and pasted "logos" to the contact links with a setup of width and height. */
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 20px;
+  }
+}
+/* anytime the screen is underneath of 600px width, the font-size will be 20px. */
+
+.topnav {
+  background-color: GoldenRod;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+/* I added a "GoldenRod" background color and used Flexbox to the top navigation bar. */
+
+.topnav a {
+  float: left;
+  color: FloralWhite;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 18px;
+}
+/* I added those styles to the links inside the navigation bar. */
+
+.topnav a:hover {
+  color: DarkBlue;
+}
+/* I changed the "DarkBlue" colour of links on hover. */
+
+.sidebar {
+  display: flex;
+  width: 300px;
+  background-color: Gainsboro;
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+/* I created a sidebar for my GitHub, Linkedin, and Resume.pdf links and used Flexbox to produce a responsive layout */
+
+.sidebar a:visited {
+  color: green;
+}
+/* I changed the "Green" colour of visited links. */
