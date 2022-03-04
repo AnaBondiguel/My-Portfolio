@@ -1,0 +1,34 @@
+body {
+  background-color: LightBlue;
+  font-family: "Roboto", sans-serif;
+}
+/* I changed the background to "LightBlue" and copied and pasted the link and name of "Roboto" as the font-family from "Google Fonts" to both HTML and CSS. */
+
+.subtitle {
+  font-weight: bold;
+  font-size: 20px;
+}
+/*  I changed the font weight and size of the subtitles to make them easy to be seen. */
+
+.text {
+  text-decoration: underline;
+}
+/*  I underlined the first key words of the paragraph text to make them easy to be seen. */
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 20px;
+  }
+}
+/* anytime the screen is underneath of 600px width, the font-size will be 20px */
+
+.header {
+  padding: 50px;
+  background: Indigo;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* I used Flexbox for a header with those styles for Heading 1. */
