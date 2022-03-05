@@ -13,7 +13,7 @@ body {
 .text {
   text-decoration: underline;
 }
-/*  I underlined the first key words of the paragraph text to make them easy to be seen. */
+/*  I underlined the (first) key words of the paragraph text to make them easy to be seen. */
 
 @media only screen and (max-width: 600px) {
   body {
