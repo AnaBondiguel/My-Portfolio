@@ -33,3 +33,20 @@ body {
   }
   /* I used Flexbox for a header with those styles for Heading 1. */
   
+  .logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+  }
+  /* I copied and pasted "logo" to the link of resume with a setup of width, height, and display. */
+  
+  a {
+    font-size: 20px;
+  }
+  /* I changed the font-size of the link */
+  
+  a:visited {
+    color: green;
+  }
+  /* I changed the "Green" colour of visited links. */
+  

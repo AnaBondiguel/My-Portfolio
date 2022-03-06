@@ -45,7 +45,7 @@ body {
 
 .sidebar {
   display: flex;
-  width: 300px;
+  width: 200px;
   background-color: Gainsboro;
   position: relative;
   height: 100%;
@@ -55,7 +55,7 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-/* I created a sidebar for my GitHub, Linkedin, and Resume.pdf links and used Flexbox to produce a responsive layout */
+/* I created a sidebar for my GitHub and Linkedin links and used Flexbox to produce a responsive layout */
 
 .sidebar a:visited {
   color: green;
