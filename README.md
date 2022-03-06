@@ -10,18 +10,20 @@ My portfolio is designed to provide a platform to show my experience, eduction, 
 
 ### Functionality / features
 My portfolio has four components including homepage, blog, experience and education, and personality, skills, and interests. Each component have both HTML document and CSS style sheet. 
-The key features include: 
+
+The key features in general include: 
 comments in the CSS and HTML code to identify each component;
 semantic HTML elements and attributes (adding meaning and accessibility);
 flexbox responsive layout designs: for different types of screens and; on the navigation bar/sidebar/headers
 
-1. Homepage
+The key features for each webpage
+1. Homepage:
 Navigation bar for links to all website pages & Sidebars for links to professional accounts 
-2. Blog Posts
+2. Blog Posts:
 A list of blog posts with titles and date published & A blog with five sample posts and their images
-3. Experience and Education
+3. Experience and Education:
 Content about my experience and education history & A link to a PDF resume
-4. Personality, Skills, and Interests
+4. Personality, Skills, and Interests:
 Content about my experience and education history
 
 
