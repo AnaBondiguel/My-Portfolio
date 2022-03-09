@@ -5,18 +5,34 @@ body {
 }
 /* I used Google Fonts for font-family and copied and pasted the link to HTML and the name of the font to CSS.*/
 
-.logo {
+.icon {
   width: 30px;
   height: 30px;
 }
-/* I copied and pasted "logos" to the contact links with a setup of width and height. */
+/* I changed the icons' width and height. */
 
 @media only screen and (max-width: 600px) {
   body {
     font-size: 20px;
   }
+  .topnav a {
+    width: 100%;
+    float: none;
+  }
+
+  .sidebar {
+    max-width: 150px;
+    height: 100%;
+  }
+
+  .sidebar a {
+    width: 100%;
+    height: auto;
+    float: none;
+    margin-left: 60px;
+  }
 }
-/* anytime the screen is underneath of 600px width, the font-size will be 20px. */
+/* Anytime the screen is underneath of 600px width, the font-size will be 20px, the links in the top navigation bar will become a column line, the sidebar will change the shape and the icon links will be vertical. */
 
 .topnav {
   background-color: GoldenRod;
@@ -26,6 +42,8 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  margin: 10px 5px;
+  padding: 5px 10px;
 }
 /* I added a "GoldenRod" background color and used Flexbox to the top navigation bar. */
 
@@ -45,8 +63,8 @@ body {
 
 .sidebar {
   display: flex;
-  width: 200px;
-  background-color: Gainsboro;
+  width: 400px;
+  background-color: LightSteelBlue;
   position: relative;
   height: 100%;
   overflow: auto;
@@ -54,10 +72,13 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  margin: 25px 30px;
+  padding: 5px 10px;
 }
-/* I created a sidebar for my GitHub and Linkedin links and used Flexbox to produce a responsive layout */
+/* I created a sidebar for my email, GitHub, and Linkedin links and used Flexbox to produce a responsive layout */
 
-.sidebar a:visited {
-  color: green;
+.cp-text {
+  color: black;
+  text-align: left;
 }
-/* I changed the "Green" colour of visited links. */
+/* I identified the color and text-align for the copyright symbol */

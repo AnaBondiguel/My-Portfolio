@@ -10,6 +10,11 @@ body {
 }
 /*  I changed the font weight and size of the subtitles to make them easy to be seen. */
 
+.paragraph {
+  font-size: 16px;
+}
+/* I made the font size for 16px. */
+
 .text {
   text-decoration: underline;
 }
@@ -24,11 +29,18 @@ body {
 
 .header {
   padding: 50px;
-  background: Indigo;
+  background-color: Indigo;
   color: white;
   font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px 5px;
 }
 /* I used Flexbox for a header with those styles for Heading 1. */
+
+.cp-text {
+  color: black;
+  text-align: left;
+}
+/* I identified the color and text-align for the copyright symbol */
