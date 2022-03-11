@@ -19,13 +19,13 @@ displaying favicons next to the page titles in the browser tabs
 
 The key features for each webpage
 1. Homepage:
-Navigation bar for links (with pseudo-class selector a:hover) to all website pages & Sidebars for icon links to professional accounts 
+Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A portrait photography & Sidebars for icon links to professional accounts 
 2. Blog Posts:
 A list of blog posts with titles and date published (with SVG graphic and text) & A blog with five sample posts and their images
 3. Experience and Education:
-Content about my experience and education history & A link to a PDF resume
+A portrait photography with name & Content about my experience and education history & A link to a PDF resume
 4. Personality, Skills, and Interests:
-Content about my experience and education history
+A portrait photography with name & Content about my experience and education history
 
 ### Sitemap
 ![Sitemap](Sitemap.png)
