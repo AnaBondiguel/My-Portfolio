@@ -17,7 +17,7 @@ semantic HTML elements and attributes (adding meaning and accessibility);
 flexbox responsive layout designs: for different types of screens and; on the navigation bar/sidebar/headers (with media queries);
 displaying favicons next to the page titles in the browser tabs
 
-The key contents or features for each webpage
+The key contents and features for each webpage
 1. Homepage:
 Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A portrait photography & Name & Professional positions & Sidebars for icon links to an email and professional accounts 
 2. Blog Posts:
