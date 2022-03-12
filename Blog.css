@@ -1,5 +1,5 @@
 body {
-  background-color: DarkOliveGreen;
+  background-color: darkolivegreen;
   color: Ivory;
   font-family: "Roboto", sans-serif;
 }
@@ -9,12 +9,17 @@ body {
   body {
     font-size: 20px;
   }
+
+  .topnav a {
+    width: 100%;
+    float: none;
+  }
 }
-/* anytime the screen is underneath of 600px width, the font-size will be 20px */
+/* anytime the screen is underneath of 600px width, the font-size will be 20px and the links in the navigation bar will be in the column. */
 
 .header {
-  padding: 50px;
-  background: DarkSlateBlue;
+  padding: 40px;
+  background: steelblue;
   color: white;
   font-size: 30px;
   display: flex;
@@ -35,3 +40,30 @@ text{
   font-weight:bold;
 }
 /* I changed the font size and color for the SVG text "The List of Block Post". */
+
+.topnav {
+  background-color: lightcoral;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 5px;
+  padding: 5px 10px;
+}
+/* I added a "LightCoral" background color and used Flexbox to the top navigation bar. */
+
+.topnav a {
+  float: left;
+  color: FloralWhite;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 18px;
+}
+/* I added those styles to the links inside the navigation bar. */
+
+.topnav a:hover {
+  color: lavender;
+}
+/* I changed the "Lavender" colour of links on hover. */

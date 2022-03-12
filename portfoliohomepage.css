@@ -15,15 +15,20 @@ body {
   body {
     font-size: 20px;
   }
+/* Anytime the screen is underneath of 600px width, the font-size will be 20px */
+
   .topnav a {
     width: 100%;
     float: none;
   }
+/* Anytime the screen is underneath of 600px width, the links of the navigation bar will become a column line. */
 
   .sidebar {
     max-width: 150px;
     height: 100%;
+    margin-left: 100px;
   }
+/* Anytime the screen is underneath of 600px width,  the sidebar will change the shape and to the margin-left 100px. */
 
   .sidebar a {
     width: 100%;
@@ -31,8 +36,24 @@ body {
     float: none;
     margin-left: 60px;
   }
+/* Anytime the screen is underneath of 600px width, the icon links of the sidebar will be vertical. */
+
+  .portrait{
+    margin-left: 150px;
+  }
+/* Anytime the screen is underneath of 600px width, the image will change to the margin-left 150px. */
+
+  h1{
+    margin-left: 100px;
+  }
+/* Anytime the screen is underneath of 600px width, the heading 1 will change to the margin-left 100px. */
+
+  h2{
+    margin-left: 70px;
+  }
+  /* Anytime the screen is underneath of 600px width, the heading 2 will change to the margin-left 70px. */
 }
-/* Anytime the screen is underneath of 600px width, the font-size will be 20px, the links in the top navigation bar will become a column line, the sidebar will change the shape and the icon links will be vertical. */
+
 
 .topnav {
   background-color: GoldenRod;
@@ -72,7 +93,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 25px 30px;
   padding: 5px 10px;
 }
 /* I created a sidebar for my email, GitHub, and Linkedin links and used Flexbox to produce a responsive layout */
