@@ -6,7 +6,7 @@
 
 # Description of your portfolio website, including,
 ### Purpose
-My portfolio is designed to provide a platform to show my experience, eduction, and skills, more importantly to demonstrate what I learnt and knew about coding. If someone who looks for software engineers, can check my portfolio and get a sense of my experience and skills very quickly.
+My portfolio is designed to provide a platform to show my experience, eduction, and skills, more importantly to demonstrate what I learnt about coding. If someone who looks for software engineers, can check my portfolio and get a sense of my experience and skills very quickly.
 
 ### Functionality / features
 My portfolio has four web pages including homepage, blog, experience and education, and personality, skills, and interests. Each page has both HTML document and CSS style sheet. 
@@ -19,13 +19,13 @@ displaying favicons next to the page titles in the browser tabs
 
 The key contents and features for each webpage
 1. Homepage:
-Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A heading & A portrait photography & Name & Professional positions & Sidebars for icon links to an email and professional accounts & Copyright a website at the footer
+Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A heading & A portrait photography & Name & Professional positions & Sidebars for icon links to an email and professional accounts & Website copyright in the footer
 2. Blog Posts:
-A heading on the header & Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A list of blog posts with titles and date published (with SVG graphic and text) & A blog with five sample posts and their images & Copyright a website at the footer
+A heading in the header & Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A list of blog posts with titles and date published (with bookmarks and SVG graphic and text) & A blog with five sample posts and their images & Website copyright in the footer
 3. Experience and Education:
-A heading on the header & Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A portrait photography with name & Content about my experience and education history & A link to a PDF resume & Copyright a website at the footer
+A heading in the header & Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A portrait photography with name & Content about my experience and education history & A link to a PDF resume & Website copyright in the footer
 4. Personality, Skills, and Interests:
-A heading on the header & Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A portrait photography with name & Content about my experience and education history & Copyright a website at the footer
+A heading in the header & Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A portrait photography with name & Content about my personality, skills, and inetrests (with a link to my PDF resume) & Website copyright in the footer
 
 ### Sitemap
 ![Sitemap](Sitemap.png)
@@ -49,7 +49,7 @@ A heading on the header & Navigation bar for links (with pseudo-class selector a
 ![Personality & Skills & Interests for iphone](Personality%26Skills%26Interestsiphone.png)
 
 ### Target audience
-Employers
+Potential Employers
 
 ### Tech stack (e.g. html, css, deployment platform, etc)
 HTML, CSS

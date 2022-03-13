@@ -86,4 +86,9 @@ body {
 .topnav a:hover {
   color: lightcoral;
 }
-/* I changed the "LightCoral" colour of links on hover. */
+/* I changed the "LightCoral" colour of links on hover for the navigation bar. */
+
+a:hover {
+  color: lightcoral;
+}
+/* I changed the "LightCoral" colour of links on hover for my resume pdf document. */
