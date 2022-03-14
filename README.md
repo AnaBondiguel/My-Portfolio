@@ -21,11 +21,11 @@ The key contents and features for each webpage
 1. Homepage:
 Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A heading & A portrait photography & Name & Professional positions & Sidebars for icon links to an email and professional accounts & Website copyright in the footer
 2. Blog Posts:
-A heading in the header & Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A list of blog posts with titles and date published (with bookmarks and SVG graphic and text) & A blog with five sample posts and their images & Website copyright in the footer
+A heading in the header & Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A list of blog posts with titles and date published (with bookmarks and SVG graphic and text) & A blog with five sample posts and their images (with tabindex attributes) & Website copyright in the footer
 3. Experience and Education:
-A heading in the header & Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A portrait photography with name & Content about my experience and education history & A link to a PDF resume & Website copyright in the footer
+A heading in the header & Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A portrait photography with name & Content about my experience and education history (with tabindex attributes) & A link to a PDF resume & Website copyright in the footer
 4. Personality, Skills, and Interests:
-A heading in the header & Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A portrait photography with name & Content about my personality, skills, and inetrests (with a link to my PDF resume) & Website copyright in the footer
+A heading in the header & Navigation bar for links (with pseudo-class selector a:hover) to all website pages & A portrait photography with name & Content about my personality, skills, and inetrests (with a link to my PDF resume and tabindex attributes) & Website copyright in the footer
 
 ### Sitemap
 ![Sitemap](Sitemap.png)
