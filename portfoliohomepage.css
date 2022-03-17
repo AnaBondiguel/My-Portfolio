@@ -1,5 +1,5 @@
 body {
-  background-color: AliceBlue;
+  background-color: beige;
   font-size-adjust: inherit;
   font-family: "Roboto", sans-serif;
 }
@@ -52,7 +52,7 @@ body {
     margin-left: 70px;
   }
   /* Anytime the screen is underneath of 600px width, the heading 2 will change to the margin-left 70px. */
-}
+} 
 
 .topnav {
   background-color: GoldenRod;
@@ -100,4 +100,6 @@ body {
   text-align: left;
 }
 /* I identified the color and text-align for the copyright symbol */
+
+
 
