@@ -1,0 +1,100 @@
+body {
+    background-image: url("starssky.jpg");
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+  }
+  /* I changed the font to "Roboto" by copying and pasting the link to HTML and the name of the font to CSS from "Google Fonts" and added a background-image and color. */
+
+
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 20px;
+    }
+  /* Anytime the screen is underneath of 600px width, the font-size will be 20px */
+  
+    .topnav a {
+      width: 100%;
+      float: none;
+    }
+  }
+  /* Anytime the screen is underneath of 600px width, the links of the navigation bar will become a column line. */
+  
+  .header {
+    padding: 40px;
+    background-color: transparent;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+  }
+  /* I used Flexbox responsive layout for a header with those styles for Heading 1. */
+  
+  .topnav {
+    background-color: transparent;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 5px;
+    padding: 5px 10px;
+  }
+  /* I added a "transparent" background color and used Flexbox responsive layout to the top navigation bar. */
+  
+  .topnav a {
+    float: left;
+    color: ivory;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+  }
+  /* I added those styles to the links inside the navigation bar. */
+  
+  .topnav a:hover {
+    color: grey;
+  }
+  /* I changed the "Grey" colour of links on hover. */
+
+  .container {
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 70px;
+    color: ivory;
+  }
+    /* Adding a transparent background color and some padding around the form */
+
+input[type=text], textarea {
+    width: 100%; 
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+    resize: vertical 
+  }
+  /* I styled inputs with type="text" and textareas */
+  
+  button[type=submit] {
+    background-color: lightcoral;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  /* I styled the submit button with "lightcoral" background color etc */
+  
+  button[type=submit]:hover {
+    background-color: gold;
+  }
+   /* When moving the mouse over the submit button, the colour changes to "gold". */
+
+   .cp-text {
+    color: ivory;
+    text-align: left;
+  }
+  /* I identified the color and text-align for the copyright symbol */

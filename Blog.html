@@ -27,6 +27,7 @@
     <a href="Blog.html">Blogs</a>
     <a href="ExperienceandEducation.html">Experience and Education</a>
     <a href="PersonalitySkillsInterests.html">Personality & Skills & Interests</a>
+    <a href="Contact.html">Contact</a>
   </nav>
   <!-- These links help to go back to homepage or other webpages. -->
 
@@ -43,6 +44,7 @@
     <text x="0" y="15" fill="navy">List of Blog Posts</text>
   </svg>
 <!-- I created a svg "smiley face" and a svg text "the list of blog posts". -->
+
   <ol>
     <li><a href="#post1">The Top 11 Productivity Tips for Software Engineers 08/03/2022</a></li>
     <li><a href="#post2">5 Reasons You Should Become a Software Developer or Engineer 01/03/2022</a></li>
@@ -52,7 +54,12 @@
   </ol>
   <!-- I used ordered list tags to create a number list for the Blog Posts with titles and date published. I also created bookmarks, so I can jump to a particular blog post when I click its link.  -->
   
-  <article>
+  <section class="article-container">
+    <!-- I tried to have a big container for all the block posts and I can set the article-container to have a flexbox layout that the block posts will change from row to column. -->
+
+  <article class="articlecard">
+<!-- I set up a block card for each blog post. -->
+
   <h2 id="post1" tabindex="0">1. The Top 11 Productivity Tips for Software Engineers 08/03/2022</h2>
   <!--I used the id attribute to create a bookmark-->
 
@@ -61,7 +68,7 @@
       <img alt="Software Engineer" src="small1.png"/>
     </picture>
     <!-- I created an image with a responsive layout. And I also used "alt" attribute to specify an alternate text for an image, if the image cannot be displayed. -->
-
+  
     <h3 tabindex="0">Productivity tips for coding engineers</h3>
     <ul>
       <li>Become more productive by working fewer hours</li>
@@ -76,11 +83,13 @@
       <li>Get proper sleep</li>
       <li> DStream your projects to stay disciplined and committed</li>
     </ul>
-  </article>
+  </article >
   <!-- I used unordered list tags to create a bullet list. -->
   <!--I used the tabindex attribute to indicate the headings that can be focused by using Tab key -->
 
-  <article>
+  <article class="articlecard">
+    <!-- I set up a block card for each block post. -->
+
     <h2 id="post2" tabindex="0">2. 5 Reasons You Should Become a Software Developer or Engineer 06/01/2022</h2>
     <!--I used the id attribute to create a bookmark-->
 
@@ -102,7 +111,9 @@
   <!-- I used unordered list tags to create a bullet list. -->
   <!--I used the tabindex attribute to indicate the headings that can be focused by using Tab key -->
 
-  <article>
+  <article class="articlecard">
+    <!-- I set up a block card for each block post. -->
+
     <h2 id="post3" tabindex="0">3. Why Do Software Engineers Make So Much? 20/02/2022</h2>
 <!--I used the id attribute to create a bookmark-->
 
@@ -117,7 +128,9 @@
      <!-- I created an image with a responsive layout. And I also used "alt" attribute to specify an alternate text for an image, if the image cannot be displayed. -->
 
 
-  <article>
+  <article class="articlecard">
+    <!-- I set up a block card for each block post. -->
+
     <h2 id="post4" tabindex="0">4. Beijing Winter Olympic Village Robot Restaurant 08/02/2022</h2>
     <!--I used the id attribute to create a bookmark-->
 
@@ -131,7 +144,9 @@
     </article>
      <!-- I created an image with a responsive layout. And I also used "alt" attribute to specify an alternate text for an image, if the image cannot be displayed. -->
 
-  <article>
+  <article class="articlecard">
+    <!-- I set up a block card for each block post. -->
+
     <h2 id="post5" tabindex="0">5. Essential Types of Software Every Business Needs</h2>
     <!--I used the id attribute to create a bookmark-->
 
@@ -155,6 +170,8 @@
   </article>
 <!-- I used unordered list tags to create a bullet list. -->
 <!--I used the tabindex attribute to indicate the headings that can be focused by using Tab key -->
+
+  </section>
 
 <footer>
   <p class="cp-text">© Created by Mingyang Wang. All rights reserved.</p>

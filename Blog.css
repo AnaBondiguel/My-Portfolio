@@ -15,7 +15,7 @@ body {
     float: none;
   }
 }
-/* anytime the screen is underneath of 600px width, the font-size will be 20px and the links in the navigation bar will be in the column. */
+/* Anytime the screen is underneath of 600px width, the font-size will be 20px and the links in the navigation bar will be in the column. */
 
 .header {
   padding: 40px;
@@ -27,7 +27,7 @@ body {
   align-items: center;
   margin: 10px 5px;
 }
-/* I used Flexbox for a header with those styles for Heading 1. */
+/* I used Flexbox responsive layout for a header with those styles for Heading 1. */
 
 .cp-text {
   color: white;
@@ -52,7 +52,7 @@ text{
   margin: 10px 5px;
   padding: 5px 10px;
 }
-/* I added a "SandyBrown" background color and used Flexbox to the top navigation bar. */
+/* I added a "SandyBrown" background color and used Flexbox responsive layout to the top navigation bar. */
 
 .topnav a {
   float: left;
@@ -72,3 +72,31 @@ a:hover {
   color: ivory;
 }
 /* I changed the "Ivory" colour of links on hover for the list of blog posts. */
+
+.article-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 40px 20px;
+}
+/* I set the article-container to have a flexbox responsive layout that the block posts will be responsive with different screen sizes from row to column. */
+
+.articlecard {
+  display: block;
+  max-width: 400px;
+  height: auto;
+  margin: 30px;
+  background-color: midnightblue;
+  padding: 20px;
+}
+/* I set up a block card for each blog post */
+
+.articlecard img{
+  height: 200px;
+  width: 300px;
+}
+/* I tried to control the height and width of image */
+

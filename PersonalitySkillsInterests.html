@@ -22,15 +22,21 @@
 </head>
 
 <body>
-  <section>
     <h1 class="header"> Personality & Skills & Interests</h1>
     <nav class="topnav">
       <a href="portfoliohomepage.html">Homepage</a>
       <a href="Blog.html">Blogs</a>
       <a href="ExperienceandEducation.html">Experience and Education</a>
       <a href="PersonalitySkillsInterests.html">Personality & Skills & Interests</a>
+      <a href="Contact.html">Contact</a>
     </nav>
     <!-- These links help to go back to homepage or other webpages. -->
+
+    <div id="container">
+      <!-- I set the container to have a flexbox layout that the paragraphs will be responsive with different screen sizes from row to column. -->
+
+      <section class="text-container">
+        <!-- I set up a block card for this section. -->
 
     <h2>Dr. Mingyang (Ana) Wang</h2>
     <picture>
@@ -38,12 +44,26 @@
        <img class="portrait" alt="Mingyang Wang" src="MingyangWangsmall.png"/>
      </picture>
      <!-- I created an image with a responsive layout. And I also used "alt" attribute to specify an alternate text for an image, if the image cannot be displayed. -->
-   
+
+  </section>
+
+  <section class="text-container">
+    <!-- I set up a block card for this section. -->
+
     <h3 class="subtitle">Personality</h3>
     <p tabindex="0">I'm a curious person and open to new ideas. I like to try new technologies and learning new skills and knowledge. I'm self-disciplined and when I meet difficulties, I proactively seek for solutions and cooperate with colleagues to complete tasks. I'm sociable and loving people. I often hang out with my colleagues outside of work and love to catch up with friends on the weekends.</p>
   </section>
 
-  <section>
+  <section class="text-container">
+   <!-- I set up a block card for this section. -->
+    
+    <h3 class="subtitle">Interests</h3>
+    <p tabindex="0"> I love traveling and understanding all cultures and reading history books. I like dancing flemanco, playing accordions and piano, cooking delicious food, and designing clothes. I also enjoy learning about new technologies, AIs, and aerospace.</p>
+  </section>
+ 
+  <section id="text-container1">
+     <!-- I set up a special block card for this section because it has a lot of contents. -->
+
     <h3 class="subtitle">Skills</h3>
     <p tabindex="0"><span class="text">Critical thinking:</span> As a researcher, critical thinking skill is essential as we often receive criticisms for our research papers. I need to know what types of criticisms are useful for the future directions of our research, and how to use the criticisms to improve the research papers.</p>
 
@@ -68,17 +88,15 @@
 
     <p tabindex="0"><span class="text">Languages:</span> English and Chinese Mandarin</p>
   </section>
-
-  <section>
-    <h3 class="subtitle">Interests</h3>
-    <p tabindex="0"> I love traveling and understanding all cultures and reading history books. I like dancing flemanco, playing accordions and piano, cooking delicious food, and designing clothes. I also enjoy learning about new technologies, AIs, and aerospace.</p>
-  </section>
-  <!-- I used the tabindex attribute to indicate the paragraphs that can be focused by using Tab key -->
+ <!-- I used the tabindex attribute to indicate the paragraphs that can be focused by using Tab key -->
+  
+</div>
 
   <footer>
     <p class="cp-text">© Created by Mingyang Wang. All rights reserved.</p>
   </footer>
  <!-- I created copyright symbol.  -->
+ 
 </body>
 
 </html>

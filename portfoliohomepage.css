@@ -54,19 +54,17 @@ body {
   /* Anytime the screen is underneath of 600px width, the heading 2 will change to the margin-left 70px. */
 }
 
-
 .topnav {
   background-color: GoldenRod;
   overflow: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-evenly;
   margin: 10px 5px;
   padding: 5px 10px;
 }
-/* I added a "GoldenRod" background color and used Flexbox to the top navigation bar. */
+/* I added a "GoldenRod" background color and used Flexbox reponsive layout for the top navigation bar. */
 
 .topnav a {
   float: left;
@@ -102,3 +100,4 @@ body {
   text-align: left;
 }
 /* I identified the color and text-align for the copyright symbol */
+

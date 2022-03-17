@@ -32,15 +32,6 @@ body {
   }
 /* Anytime the screen is underneath of 600px width, the links of the navigation bar will become a column line. */
 
-  .portrait{
-    margin-left: 150px;
-  }
-/* Anytime the screen is underneath of 600px width, the image will change to the margin-left 150px. */
-
-  h2{
-    margin-left: 70px;
-  }
-  /* Anytime the screen is underneath of 600px width, the heading 2 will change to the margin-left 70px. */
 }
 
 .header {
@@ -53,7 +44,7 @@ body {
   align-items: center;
   margin: 10px 5px;
 }
-/* I used Flexbox for a header with those styles for Heading 1. */
+/* I used Flexbox responsive layout for a header with those styles for Heading 1. */
 
 .cp-text {
   color: black;
@@ -72,7 +63,7 @@ body {
   margin: 10px 5px;
   padding: 5px 10px;
 }
-/* I added a "rebeccapurple" background color and used Flexbox to the top navigation bar. */
+/* I added a "rebeccapurple" background color and used Flexbox responsive layout to the top navigation bar. */
 
 .topnav a {
   float: left;
@@ -92,3 +83,41 @@ a:hover {
   color: lightcoral;
 }
 /* I changed the "LightCoral" colour of links on hover for my resume pdf document. */
+
+#container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 40px 20px;
+}
+/* I set the container to have a flexbox responsive layout that the paragraphs will be responsive with different screen sizes from row to column. */
+
+.text-container {
+  display: block;
+  max-width: 400px;
+  height: auto;
+  margin: 30px;
+  background-color: lavender;
+  padding: 20px;
+}
+/* I set up a block card for each section except the "Skills" section */
+
+.text-container img{
+  height: 300px;
+  width: 200px;
+  margin-left: 20px;
+}
+/* I tried to control the height, width and margin of image */
+
+#text-container1 {
+  display: block;
+  max-width: 1000px;
+  height: auto;
+  margin: 30px;
+  background-color: lavender;
+  padding: 20px;
+}
+/* I set up a special block card for the "Skills" section */

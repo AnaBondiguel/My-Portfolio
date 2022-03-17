@@ -28,16 +28,7 @@ body {
   }
 /* Anytime the screen is underneath of 600px width, the links of the navigation bar will become a column line. */
 
-  .portrait{
-    margin-left: 150px;
   }
-/* Anytime the screen is underneath of 600px width, the image will change to the margin-left 150px. */
-
-  h2{
-    margin-left: 70px;
-  }
-  /* Anytime the screen is underneath of 600px width, the heading 2 will change to the margin-left 70px. */
-}
 
 .header {
   padding: 40px;
@@ -49,15 +40,13 @@ body {
   align-items: center;
   margin: 10px 5px;
 }
-/* I used Flexbox for a header with those styles for Heading 1. */
+/* I used Flexbox respinsive layout for a header with those styles for Heading 1. */
 
 .icon {
   width: 100px;
   height: 100px;
-  margin: 10px 50px;
-  padding: 10px 50px;
 }
-/* I created the icon link of my resume PDF document with a setup of width, height, margin and padding. */
+/* I created the icon link of my resume PDF document with a setup of width and height. */
 
 .cp-text {
   color: black;
@@ -76,7 +65,7 @@ body {
   margin: 10px 5px;
   padding: 5px 10px;
 }
-/* I added a "darkolivegreen" background color and used Flexbox to the top navigation bar. */
+/* I added a "darkolivegreen" background color and used Flexbox responsive layout to the top navigation bar. */
 
 .topnav a {
   float: left;
@@ -91,5 +80,26 @@ body {
   color: DarkBlue;
 }
 /* I changed the "DarkBlue" colour of links on hover. */
+
+#containerbox {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px 20px;
+}
+/* I set the containerbox to have a flexbox layout that the contents will be responsive with different screen sizes from row to column. */
+
+.textbox {
+  display: block;
+  max-width: 400px;
+  height: auto;
+  margin: 30px;
+  background-color: oldlace;
+  padding: 20px;
+}
+/* I set up a block card for each section */
 
 
