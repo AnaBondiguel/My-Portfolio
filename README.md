@@ -34,22 +34,26 @@ A heading in the header & Navigation bar for links to all website pages & a form
 ![Sitemap](Sitemap.png)
 
 ### Screenshots
-## A picture of portfolio homepage for computer screen
-![Portfolio homepage for computer](homepage.png)
-## A picture of portfolio homepage for Iphone screen
-![Portfolio homepage for iphone](homepageiphone.png)
-## A picture of blog page for computer screen
-![Blogs for computer](Blog.png)
-## A picture of blog page for Iphone screen
-![Blogs for iphone](Blogiphone.png)
-## A picture of experience and education page for computer screen
-![Experience & Education for computer](ExperienceandEducation.png)
-## A picture of experience and education page for Iphone screen
-![Experience & Education for iphone](ExperienceandEducationiphone.png)
-## A picture of personality & skills & interests page for computer screen
-![Personality & Skills & Interests for computer](Personality&Skills&Interests.png)
-## A picture of personality & skills & interests page for Iphone screen
-![Personality & Skills & Interests for iphone](Personality%26Skills%26Interestsiphone.png)
+## A picture of portfolio homepage for desktop screen
+![Portfolio homepage for desktop](homepage.png)
+## A picture of portfolio homepage for mobile screen
+![Portfolio homepage for mobile](homepageiphone.png)
+## A picture of blog page for desktop screen
+![Blogs for desktop](Blog.png)
+## A picture of blog page for mobile screen
+![Blogs for mobile](Blogiphone.png)
+## A picture of experience and education page for desktop screen
+![Experience & Education for desktop](ExperienceandEducation.png)
+## A picture of experience and education page for mobile screen
+![Experience & Education for mobile](ExperienceandEducationiphone.png)
+## A picture of personality & skills & interests page for desktop screen
+![Personality & Skills & Interests for desktop](Personality&Skills&Interests.png)
+## A picture of personality & skills & interests page for mobile screen
+![Personality & Skills & Interests for mobile](Personality%26Skills%26Interestsiphone.png)
+## A picture of Contact page for desktop screen
+![Contact for desktop](Contact.png)
+## A picture of Contact page for mobile screen
+![Contact for mobile](Contactiphone.png)
 
 ### Target audience
 Potential Employers
