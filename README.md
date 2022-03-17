@@ -30,27 +30,6 @@ A heading in the header & Navigation bar for links (with pseudo-class selector a
 5. Contact: 
 A heading in the header & Navigation bar for links to all website pages & a form with name, email address, subject, and a “send” button & Website copyright in the footer
 
-A list of components that are used in general:
-1. A <!DOCTYPE html> declaration 
-2. The <html> tag represents the root of an HTML document.
-3. A container the <head> element for metadata, title, and links
-4. The <body> tag defines the document's body.
-5. The <footer> tag for a document or section contains e.g. copyright information.
-6. Headings: <h1> to <h4>
-7. Navigation bars <nav> with links of web pages <a>
-
-A list of components that are used in certain web pages:
-1. The <picture> tag gives flexibility for responsive designs.
-2. The <div> tag helps to have a container for Flexbox responsive layout and is easily styled by using the “class” or “id” attribute.
-3. The <svg> tag provide a container for svg graphic and text.
-4. The <ol> tag and <li> tag help to create a numerical list for my blog posts 
-5. The <section> tag defines a section in a document and provide a container for Flexbox responsive layout 
-6. The <article> tag specifies independent and self-contained content. I used it to setup for a block card for each blog post.
-7. The <p> tag creates a paragraph with attributes e.g. tabindex
-8. The <ul>tag and <li> tag creates a bulleted list for some contents of my professional experience
-9. The <span> tag is an inline container used to mark up a part of a text, or a part of a document, e.g. I want to underline keywords in the paragraph. 
-10. The <form> tag is used to create an HTML form for user input and can contain more form elements, e.g. <label>, <input>, <textarea>, <button>
-
 ### Sitemap
 ![Sitemap](Sitemap.png)
 
