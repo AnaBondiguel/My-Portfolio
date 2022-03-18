@@ -16,7 +16,8 @@ The key features in general include:
 comments in the CSS and HTML code to identify each component;
 semantic HTML elements and attributes (adding meaning and accessibility);
 flexbox responsive layout designs: for different types of screens and; on the navigation bar/sidebar/headers (with media queries);
-displaying favicons next to the page titles in the browser tabs
+displaying favicons next to the page titles in the browser tabs;
+using media queries to apply different styles for different media types/devices
 
 The key contents and functions for each webpage
 1. Homepage:
