@@ -17,7 +17,7 @@ body {
       float: none;
     }
   }
-  /* Anytime the screen is underneath of 600px width, the links of the navigation bar will become a column line. */
+  /* Anytime the screen is underneath of 600px width, the links of the navigation bar will becomes verticle. */
   
   .header {
     padding: 40px;
@@ -79,14 +79,14 @@ input[type=text], textarea {
   /* I styled inputs with type="text" and textareas */
   
   button[type=submit] {
-    background-color: lightcoral;
+    background-color: darkorange;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
-  /* I styled the submit button with "lightcoral" background color etc */
+  /* I styled the submit button with "darkorange" background color etc */
   
   button[type=submit]:hover {
     background-color: gold;

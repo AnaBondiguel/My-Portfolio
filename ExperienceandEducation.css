@@ -14,7 +14,7 @@ body {
   font-style: italic;
   font-size: 14px;
 }
-/* I made the font for thesis descriptions italic and font size for 16px. */
+/* I made the font for thesis descriptions italic and font size for 14px. */
 
 @media only screen and (max-width: 600px) {
   body {
@@ -26,7 +26,7 @@ body {
     width: 100%;
     float: none;
   }
-/* Anytime the screen is underneath of 600px width, the links of the navigation bar will become a column line. */
+/* Anytime the screen is underneath of 600px width, the links of the navigation bar will becomes verticle. */
 
   }
 
@@ -90,7 +90,7 @@ body {
   justify-content: space-evenly;
   padding: 20px 20px;
 }
-/* I set the containerbox to have a flexbox layout that the contents will be responsive with different screen sizes from row to column. */
+/* I set the containerbox to have a flexbox layout that the contents will be responsive from row to column when the size of screen becomes smaller. */
 
 .textbox {
   display: block;
@@ -101,5 +101,11 @@ body {
   padding: 20px;
 }
 /* I set up a block card for each section */
+
+.portrait {
+  height: 300px;
+  width: 200px;
+}
+/* I tried to control the height and width of portrait */
 
 

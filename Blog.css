@@ -14,8 +14,13 @@ body {
     width: 100%;
     float: none;
   }
+
+  text{
+    font-size:30px;
+    font-weight:bold;
+  }
 }
-/* Anytime the screen is underneath of 600px width, the font-size will be 20px and the links in the navigation bar will be in the column. */
+/* Anytime the screen is underneath of 600px width, the font-size will be 20px and the links in the navigation bar will become vertical. */
 
 .header {
   padding: 40px;
@@ -82,7 +87,7 @@ a:hover {
   justify-content: space-evenly;
   padding: 40px 20px;
 }
-/* I set the article-container to have a flexbox responsive layout that the block posts will be responsive with different screen sizes from row to column. */
+/* I set the article-container to have a flexbox responsive layout that the block posts will be responsive from row to column when the size of screen becomes smaller. */
 
 .articlecard {
   display: block;
